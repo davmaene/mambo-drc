@@ -1,0 +1,28 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "app created to my TFE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/davmaene/e-hangi.git"
+  },
+  "keywords": [
+    "e-commerce"
+  ],
+  "author": "davmaene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davmaene/e-hangi/issues"
+  },
+  "homepage": "https://github.com/davmaene/e-hangi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sequelize": "^6.5.1"
+  }
+}
